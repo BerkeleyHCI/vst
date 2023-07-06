@@ -1,0 +1,27 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "curly": "off",
+        "no-console": "off",
+        "no-case-declarations": "off",
+        "no-prototype-builtins": "off",
+
+        "no-debugger": "warn",
+        "no-constant-condition": "warn",
+        "no-unreachable": "warn",
+        "no-unused-vars": "warn",
+        "max-len": ["warn", 140, 2, { "ignoreUrls": true }],
+        "strict": ["error", "global"]
+    }
+}

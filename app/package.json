@@ -1,0 +1,51 @@
+{
+    "name": "VST",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "homepage": ".",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/berkeleyhci/vst.git"
+    },
+    "devDependencies": {
+        "benchmark": "^2.1.4",
+        "canvas": "^2.11.0",
+        "gh-pages": "^5.0.0",
+        "redux-devtools-extension": "^2.13.9",
+        "react-scripts": "^5.0.1"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.6",
+        "@emotion/styled": "^11.10.6",
+        "@mui/material": "^5.11.12",
+        "fabric": "^5.3.0",
+        "file-saver": "^2.0.5",
+        "jquery": "^3.6.4",
+        "lodash": "^4.17.21",
+        "mathjs": "^11.6.0",
+        "object-hash": "^3.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-modal": "^3.16.1",
+        "react-redux": "^8.0.5",
+        "redux": "^4.2.1",
+        "tinycolor2": "^1.6.0",
+        "toastr": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "eject": "react-scripts eject",
+        "lint": "eslint src",
+        "test": "react-scripts test --env=node --passWithNoTests",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build && rm -rf build"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
