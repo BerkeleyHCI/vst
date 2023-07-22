@@ -11,6 +11,8 @@ import MatchDetail from "./MatchDetail.js";
 import VSTHelp from "./VSTHelp.js";
 import VSTExamples from "./VSTExamples.js";
 
+const projectURL = "https://jeremywrnr.com/vst";
+
 class NavigationBar extends Component {
     componentDidMount = () => {
         document.addEventListener("keydown", this.handleShortcutKeys);
@@ -297,7 +299,9 @@ class NavigationBar extends Component {
         const { title } = this.props;
         return (
             <nav className="navbar navbar-dark sticky-top">
-                <span className="navbar-brand">{title}</span>
+                <a href={projectURL} target="_blank" className="navbar-brand">
+                    <span className="navbar-brand">{title}</span>
+                </a>
                 <ul className="navbar-nav mr-auto"></ul>
 
                 <Button handleClick={this.handleExamplesModal}>Open</Button>

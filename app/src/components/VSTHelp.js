@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+const projectURL = "https://jeremywrnr.com/vst";
+
 const shortcuts = [
     { key: "h", description: "Help: Open/close this help menu." },
     { key: "o", description: "Open: Open an example graphics pair." },
@@ -24,6 +26,11 @@ class Help extends Component {
                         Crtl—<kbd>{sc.key}</kbd> : <span>{sc.description}</span>
                     </p>
                 ))}
+
+                <hr></hr>
+                <a href={projectURL}>
+                    See more details about VST at the project homepage.
+                </a>
             </div>
         );
     }
