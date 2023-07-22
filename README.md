@@ -4,6 +4,9 @@ Interactive Flexible Style Transfer for Vector Graphics
 
 _ACM Symposium on User Interface Software and Technology — UIST 2023_
 
+![vst-small](https://github.com/BerkeleyHCI/vst/assets/4837429/be81fe16-8c24-4e30-9d0c-550829ae592b)
+
+
 - Application source: [`app/`](https://github.com/berkeleyhci/vst/tree/main/app)
 - Local development:
 
